@@ -1,15 +1,21 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import logo from '../logo.svg';
+import '../css/App.css';
+import MenuBar from './MenuBar';
+import SimpleComponent from './SimpleComponent';
+import StatefulComponent from './StatefulComponent';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
         <header className="App-header">
+        <MenuBar />
+        <SimpleComponent/>
+        <StatefulComponent />
           <img src={logo} className="App-logo" alt="logo" />
           <p>
-            Edit <code>src/App.js</code> and save to reload.
+            Edit <code>src/App.js</code> and save to reload.sss
           </p>
           <a
             className="App-link"
