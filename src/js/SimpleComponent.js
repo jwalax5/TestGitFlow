@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class SimpleComponent extends Component {
   constructor(props) {
     super(props);
-    this.state = { name: "jojojoss josh" };
+    this.state = { name: "jojojosslast time josh" };
   }
 
   render() {
