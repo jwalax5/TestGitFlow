@@ -4,3 +4,13 @@
     color: red;
     text-align: center;
 }
+
+ul{
+    width:100%;
+
+}
+
+li{
+    width:30%;
+    display:inline-block;
+}
